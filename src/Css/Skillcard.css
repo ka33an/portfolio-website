@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Asset&display=swap');
+
+.Container{
+  display: flex;
+  gap: 20px;
+justify-content: center;
+ padding-top: 40px;
+ gap :30px;
+
+}
+
+.card{ 
+    flex :0 0 400px;
+    background-color: #f8f8f8;
+    color: black;
+    border-radius: 20px;
+    width: 400px;
+    min-height: 500px;
+    border: 2px solid black;
+    padding:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.top{
+    font-family: "Alfa Slab One",sans-serif;
+    display: flex;
+   gap:20px;
+    padding-top:10px;
+    align-items: center;
+}
+
+.top img{
+    border-radius:50% ;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.top h3{
+    color: black;
+    font-size: x-large;
+}
+
+.cardText{
+    font-size: x-large;
+    padding-top: 35px;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+    box-shadow:0 15px 30px rgba(0,0,0,0.2);
+}
+

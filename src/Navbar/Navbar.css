@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Asset&family=Press+Start+2P&display=swap');
+
+.Navbar{
+   
+    font-family: "Press Start 2P",'Times New Roman', Times, serif;
+    height: 12vh;
+  width:fit-content;
+  margin: 20px auto;
+    background-color: #EBD5AB;
+    border-radius: 20px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+     border: 1px solid rgba( 255, 255, 255, 0.18 );
+     background: rgba(89, 131, 83, 0.09);
+    backdrop-filter: blur( 2px );
+    padding-left: 20px;
+    padding-right:20px;
+  
+}
+
+.Menuitem{
+    padding: 10px;
+    font-weight: bold;
+font-size: large;
+  transition: 0.3s;
+}
+
+
+.Menuimg{
+    width: 20px;
+    height: 40px;
+}
+
+
+.Menuitem:visited{
+    color:white;
+}
+.Menuitem:hover{
+    color: white ;
+    font-size:x-large;
+}

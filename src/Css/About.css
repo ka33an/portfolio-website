@@ -1,0 +1,103 @@
+.AboutMe {
+  display: flex;
+  width: 100%;
+  min-height:500px; 
+  max-height: 78vh;
+  margin: 25px auto;
+  align-items: stretch; 
+  border-radius: 20px;
+  overflow: hidden;
+}
+.caraousel{
+margin: 10px auto;
+width:90%;
+display: flex;
+overflow-x: auto;
+
+}
+.caraousel::-webkit-scrollbar{
+  display:none;
+}
+
+.caraousel:hover .group {
+  animation-play-state: paused;
+}
+
+.group{
+  display: flex;
+  animation: slide 35s linear infinite;
+  gap:20px;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%); 
+  }
+}
+
+.AboutImg {
+  flex: 1; 
+  line-height: 0;
+}
+
+.AboutImg img {
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  display: block;
+}
+
+.AboutText {
+    color: #5a2720;
+  flex: 1;
+background-color:  #EBD5AB;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.AboutHeading {
+
+  text-decoration-line: underline;
+  font-weight: bolder;
+  font-size: 48px;
+  margin-top: 0;
+}
+
+.AboutPara {
+  margin-bottom: 0;
+  padding-top: 45px;
+  font-size: 28px;
+}
+
+.Skills{ 
+  
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+   margin-top: 80px;
+   max-width: 1200px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.Skills h1{
+ 
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  background: rgba(89, 131, 83, 0.09);
+  backdrop-filter: blur( 2px );
+  font-size:60px;
+  color: white;
+  border-radius: 20px;
+  padding:10px 20px
+  
+}
+.Skills svg{
+  width: 50px;
+  height: 50px;
+}
+
