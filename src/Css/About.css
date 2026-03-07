@@ -1,4 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Asset&family=Press+Start+2P&display=swap');
+
 .AboutMe {
+ 
   display: flex;
   width: 100%;
   min-height:500px; 
@@ -52,9 +58,15 @@ overflow-x: auto;
 }
 
 .AboutText {
-    color: #5a2720;
+  
+    color: #EBD5AB;
+
+    font-family: "Oswald",sans-serif;
   flex: 1;
-background-color:  #EBD5AB;
+ border: 1px solid rgba( 255, 255, 255, 0.18 );
+ border-left: none;
+    background: rgba(89, 131, 83, 0.09);
+    backdrop-filter: blur( 2px );
   padding: 40px;
   display: flex;
   flex-direction: column;
@@ -62,8 +74,7 @@ background-color:  #EBD5AB;
 }
 
 .AboutHeading {
-
-  text-decoration-line: underline;
+   font-family: "Alfa Slab One";
   font-weight: bolder;
   font-size: 48px;
   margin-top: 0;
@@ -86,12 +97,12 @@ background-color:  #EBD5AB;
    margin-right: auto;
 }
 .Skills h1{
- 
+ font-family: "Press Start 2P",'Times New Roman', Times, serif;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
   background: rgba(89, 131, 83, 0.09);
   backdrop-filter: blur( 2px );
   font-size:60px;
-  color: white;
+  color: #EBD5AB;
   border-radius: 20px;
   padding:10px 20px
   
