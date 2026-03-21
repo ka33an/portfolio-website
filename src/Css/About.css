@@ -58,19 +58,17 @@ overflow-x: auto;
 }
 
 .AboutText {
-  
     color: #EBD5AB;
-
     font-family: "Oswald",sans-serif;
-  flex: 1;
- border: 1px solid rgba( 255, 255, 255, 0.18 );
- border-left: none;
-    background: rgba(89, 131, 83, 0.09);
+    flex: 1;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-left: none;
+    background: rgba(141, 143, 140, 0.09);
     backdrop-filter: blur( 2px );
-  padding: 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .AboutHeading {
@@ -87,7 +85,7 @@ overflow-x: auto;
 }
 
 .Skills{ 
-  
+
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
@@ -97,14 +95,14 @@ overflow-x: auto;
    margin-right: auto;
 }
 .Skills h1{
- font-family: "Press Start 2P",'Times New Roman', Times, serif;
+  font-family: "Press Start 2P",'Times New Roman', Times, serif;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
-  background: rgba(89, 131, 83, 0.09);
+  background: rgba(141, 143, 140, 0.09);
   backdrop-filter: blur( 2px );
   font-size:60px;
-  color: #EBD5AB;
+  color: #fffefc;
   border-radius: 20px;
-  padding:10px 20px
+  padding:15px 20px
   
 }
 .Skills svg{
