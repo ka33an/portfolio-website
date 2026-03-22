@@ -4,15 +4,14 @@
    
     font-family: "Press Start 2P",'Times New Roman', Times, serif;
     height: 12vh;
-  width:fit-content;
-  margin: 20px auto;
-    background-color: #EBD5AB;
-    border-radius: 20px;
+    width:fit-content;
+    margin: 2rem auto;
+    border-radius: 2.5rem;
     display:flex ;
     align-items: center;
     justify-content: center;
-     border: 1px solid rgba( 255, 255, 255, 0.18 );
-     background: rgba(141, 143, 140, 0.09);
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    background: rgba(141, 143, 140, 0.09);
     backdrop-filter: blur( 2px );
     padding-left: 20px;
     padding-right:20px;
@@ -22,8 +21,8 @@
 .Menuitem{
     padding: 10px;
     font-weight: bold;
-font-size: large;
-  transition: 0.3s;
+    font-size: large;
+    transition: 0.3s;
 }
 
 

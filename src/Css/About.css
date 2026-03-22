@@ -11,9 +11,10 @@
   max-height: 78vh;
   margin: 25px auto;
   align-items: stretch; 
-  border-radius: 20px;
+  border-radius: 2.5rem;
   overflow: hidden;
 }
+
 .caraousel{
 margin: 10px auto;
 width:90%;
@@ -45,12 +46,13 @@ overflow-x: auto;
 }
 
 .AboutImg {
+  position: relative;
   flex: 1; 
   line-height: 0;
 }
 
-.AboutImg img {
 
+.AboutImg img {
   width: 100%;
   height: 100%;
   object-fit: cover; 
@@ -72,7 +74,7 @@ overflow-x: auto;
 }
 
 .AboutHeading {
-   font-family: "Alfa Slab One";
+  font-family: "Alfa Slab One";
   font-weight: bolder;
   font-size: 48px;
   margin-top: 0;
