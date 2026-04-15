@@ -12,7 +12,7 @@ justify-content: center;
 
 .card{ 
     border: 1px solid rgba( 255, 255, 255, 0.18 );
-background: rgba(141, 143, 140, 0.09);
+    background: rgba(101, 101, 100, 0.10);
     backdrop-filter: blur( 2px );
     flex :0 0 400px;
     color: white;

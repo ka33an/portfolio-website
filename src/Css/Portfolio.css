@@ -1,64 +1,94 @@
-.project{
-    min-height: calc(100vh - 12vh - 4rem);
-    display:grid ;
-    grid-template-columns:60% 40%;    
+body:has(.portfolioPage) {
+  background-image: url(download2.svg);
+
 }
 
-.imageArea{
-    position:relative;
-    margin: 2rem;
-    border-radius:2.5rem;
-    overflow: hidden;
+.project {
+  min-height: calc(100vh - 12vh - 4rem);
+  display: grid;
+  grid-template-columns: 60% 40%;
 }
 
-.imageArea img{
+.imageArea {
+  position: relative;
+  margin: 2rem;
+  border-radius: 2.5rem;
+  overflow: hidden;
+}
+
+.imageArea img {
   width: 100%;
   height: 100%;
-  object-fit: cover; 
+  object-fit: cover;
 }
 
-.textArea{
-   
-    display: grid;
-    grid-template-rows:60% 40%;
-}
-.upperText{ 
-    margin:2rem;
-    border-radius: 2.5rem;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-    background: rgba(141, 143, 140, 0.09);
-    backdrop-filter: blur( 2px );
-
-}
-.upperText h1{
-    padding:1rem;
-    color: white;
-    text-align: center;
-}
-.lowerText{
-    margin: 2rem;
-     border-radius: 2.5rem;
-     border: 1px solid rgba( 255, 255, 255, 0.18 );
-    background: rgba(141, 143, 140, 0.09);
-    backdrop-filter: blur( 2px );
-}
-.lowerText h2{
-    padding:1rem;
-    color: white;
-    text-align: center;
+.textArea {
+  display: grid;
+  grid-template-rows: 60% 40%;
 }
 
-.overlay { 
-    position: fixed; 
-    top: 0; 
-    left: 0;
-    width: 100%; 
-    height: 100%;
-    background: rgba(0,0,0,0.6);
-    display: flex;
-    justify-content: center;
-    align-items: center;   
-    
+.upperText {
+  margin: 2rem;
+  border-radius: 2.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(141, 143, 140, 0.09);
+  backdrop-filter: blur(2px);
+}
+
+.upperText h1 {
+  padding: 1rem;
+  color: white;
+  text-align: center;
+}
+
+.lowerText {
+  margin: 2rem;
+  border-radius: 2.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(141, 143, 140, 0.09);
+  backdrop-filter: blur(2px);
+}
+
+.lowerText h2 {
+  padding: 1rem;
+  color: white;
+  text-align: center;
+}
+
+.arrowBtn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.35);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  font-size: 1.4rem;
+  padding: 8px 14px;
+  cursor: pointer;
+  border-radius: 50%;
+  backdrop-filter: blur(2px);
+  transition: background-color 0.2s;
+  z-index: 10;
+}
+
+.arrowBtn:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.arrowBtn.left  { left: 14px; }
+.arrowBtn.right { right: 14px; }
+
+.slideCount {
+  position: absolute;
+  bottom: 14px;
+  right: 18px;
+  color: white;
+  font-size: 0.8rem;
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 2px 10px;
+  border-radius: 20px;
+  backdrop-filter: blur(2px);
 }
 
 

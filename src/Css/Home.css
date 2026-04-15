@@ -32,8 +32,10 @@ margin:0 auto;
 }
 
 .hello{
- font-size: 1.75rem;
+color: white;
+font-size: 1.75rem;
 font-weight: 200;    
+
 }
 .introtext{
     font-size: 6rem;
@@ -41,8 +43,8 @@ font-weight: 200;
 .name{
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 6rem;
-    color:#EBD5AB;
-    text-shadow:  0 0 75px #EBD5AB;
+    color:#e76f21;
+   
 }
 
 .intropara{
@@ -74,7 +76,7 @@ font-weight: 200;
    
 }
 .mycreationsbutton:hover{
-     background-color:#5a2720;
+     background-color:#e75541;
     color: white;
 }
 
@@ -94,6 +96,6 @@ font-weight: 200;
 }
 
 .Contactus:hover{
-    background-color:#5a2720;
+    background-color:#e75541;
     color: white;
 }
