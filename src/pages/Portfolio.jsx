@@ -5,7 +5,16 @@ import TM2 from "../pictures/TM2.jpeg"
 import TM3 from "../pictures/TM3.jpeg"
 import TM4 from "../pictures/TM4.jpeg"
 import TM5 from "../pictures/TM5.jpeg"
-import example from "../pictures/example.jpg"
+import ADD1 from "../pictures/ADD1.png"
+import ADD2 from "../pictures/ADD2.png"
+import ADD3 from "../pictures/ADD3.png"
+import ADD4 from "../pictures/ADD4.png"
+import ADD5 from "../pictures/ADD5.png"
+import ADD6 from "../pictures/ADD6.png"
+import ADD7 from "../pictures/ADD7.png"
+
+
+
 import "../Css/Portfolio.css"
 
 const Portfolio = () => {
@@ -20,8 +29,8 @@ const Portfolio = () => {
     {
       id: 1,
       title: "ARCHITECTURAL DESIGNING AND DETAILING",
-      cover: example,
-      images: [example, example],
+      cover: ADD1,
+      images: [ADD1,ADD2,ADD3,ADD4,ADD5,ADD6,ADD7],
       description: "Another project",
     }
   ]
