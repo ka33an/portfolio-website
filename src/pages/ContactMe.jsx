@@ -1,7 +1,29 @@
 import React from 'react'
 import "../Css/ContactMe.css"
+import { useRef } from 'react'
+import emailjs from '@emailjs/browser'
 
 const ContactMe = () => {
+
+    const form = useRef();   
+
+    const sendEmail = (e) => {
+            e.preventDefault();
+
+            emailjs.sendForm(
+            'service_q5rmidi',
+            'template_selkyih',
+            form.current,
+            'KSAMr1WgJ9h847kw2'
+            )
+            .then(() => {
+            alert("Message sent!");
+            form.current.reset(); 
+            }, (error) => {
+            console.log(error);
+            });
+        };
+
   return (<div className='container'>
 
     <div className='fullcard'> 
@@ -12,7 +34,6 @@ const ContactMe = () => {
             <span className='great'> GREAT </span> <br />
             <span >TOGETHER</span>
             </div>
-
 
             <div className='contactDetails'>
 
@@ -56,17 +77,17 @@ const ContactMe = () => {
             </div>
         </div>
 
-        <div className='rightPanel'>
+        <form ref={form} onSubmit={sendEmail} className='rightPanel'>
 
-            <input type="text" placeholder='name' />
-            <input type="text"  placeholder='email'/>
-            <textarea type="text" placeholder='your message'/>
+            <input type="text" name='name' placeholder='name' required />
+            <input type="email" name='email' placeholder='email' required/>
+            <textarea name='message' placeholder='your message' required></textarea>
 
 
-            <button className='sendBtn'>
+            <button className='sendBtn' type='submit'>
                 Send 
             </button>
-    </div>
+    </form>
     </div>
     </div>
   )
